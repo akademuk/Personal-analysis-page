@@ -1,0 +1,1992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/jzf5wwi.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-big">
+            <div class="header-big__logo">
+                <a href="#">
+                    <img src="image/big-shapoval-logo.svg" alt="shapoval logo">
+                </a>
+            </div>
+
+            <div class="header-big__nav">
+                <h2>развитие бизнеса</h2>
+
+                <div class="header-big__language">
+                    <button class="language__active">
+                        RU
+                    </button>
+                    <button>
+                        UA
+                    </button>
+                </div>
+
+                <a href="#">
+                    <img src="image/buttons.svg" alt="link icon">
+                </a>
+            </div>
+        </div>
+
+        <div class="header-small">
+            <div class="header-small__logo">
+                <a href="#">
+                    <img src="image/small-shapoval-logo.svg" alt="shapoval logo">
+                </a>
+            </div>
+
+            <div class="header-small__nav">
+                <h2>развитие бизнеса</h2>
+
+                <div class="header-small__language">
+                    <button class="language__active">
+                        RU
+                    </button>
+                    <button>
+                        UA
+                    </button>
+                </div>
+
+                <a href="#">
+                    Новая анкета
+                    <img src="image/header-link.svg" alt="link icon">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="wrapper">
+                <div class="hero__left">
+                    <video src="image/hero-video.mp4" autoplay muted loop></video>
+                </div>
+                <div class="hero__right">
+                    <div class="hero__right-title">
+                        <h1>Персональный разбор</h1>
+                        <p>Пошаговый анализ вашей ситуации</p>
+                    </div>
+                    <a href="#" class="btn-bg">
+                        Начать разбор
+                        <img src="image/btn-arrow.svg" alt="Начать разбор">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="goal">
+            <div class="wrapper">
+                <div class="goal__title">
+                    <h2>Наша цель —</h2>
+                </div>
+                <div class="goal__content">
+                    Помочь <b>найти проблемные места и определить точки роста</b> для выхода на новый уровень доходов
+                    благодаря своему блогу. Удачи
+                    <img src="image/ebodji.svg" alt="ebodji">
+                </div>
+            </div>
+        </section>
+
+        <section class="acquaintance">
+            <div class="wrapper">
+                <div class="acquaintance__left">
+                    <h2>Знакомство</h2>
+                    <h3>Давай познакомимся. Расскажи, чем занимаешься?</h3>
+                    <p>Смысл этого блока: узнать базовую информацию о Вас или компании, чтобы понять, какие инструменты
+                        можно использовать.</p>
+                </div>
+                <div class="acquaintance__right">
+                    <form action="" class="acquaintance__right-form">
+                        <div class="acquaintance__right-form-box">
+                            <label for="name" class="acquaintance__right-form__label">Как обратиться?</label>
+                            <input type="text" id="name" class="acquaintance__right-form__input"
+                                placeholder="Введите имя">
+                        </div>
+
+                        <div class="acquaintance__right-form-box">
+                            <label for="description" class="acquaintance__right-form__label">О бизнесе</label>
+                            <textarea id="description" class="acquaintance__right-form__textarea"
+                                placeholder="Кратко о твоем деле"></textarea>
+                        </div>
+
+                        <div class="acquaintance__right-form-box">
+                            <label class="acquaintance__right-form__label">Назови свои ТОП-3 проблемы на данный
+                                момент:</label>
+                            <div class="acquaintance__right-form-flex">
+                                <input type="text" class="acquaintance__right-form__input" placeholder="#1 проблема">
+                                <input type="text" class="acquaintance__right-form__input" placeholder="#2 проблема">
+                                <input type="text" class="acquaintance__right-form__input" placeholder="#3 проблема">
+                            </div>
+                        </div>
+
+                        <div class="acquaintance__right-form-box">
+                            <h3>Твоя «Точка А»:</h3>
+                            <div class="acquaintance__right-form-container">
+                                <input type="text" class="acquaintance__right-form__input" placeholder="напр. $1,000">
+
+                                <!-- Custom Dropdown for Точка А -->
+                                <div class="dropdown form__dropdown">
+                                    <button type="button" class="dropdown__button form__dropdown-button"
+                                        id="dropdownA">Все делаю сам</button>
+                                    <div class="dropdown__content form__dropdown-content" id="dropdownAOptions">
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Все делаю сам">Все делаю сам</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Первые сотрудники">Первые сотрудники</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Постоянный контроль">Постоянный контроль</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Управление 10 мин">Управление 10 мин</a>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown form__dropdown">
+                                    <button type="button" class="dropdown__button form__dropdown-button"
+                                        id="dropdownB">Занят на 10%</button>
+                                    <div class="dropdown__content form__dropdown-content" id="dropdownBOptions">
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Занят на 10%">Занят на 10%</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Занят на 20%">Занят на 20%</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Занят на 30%">Занят на 30%</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Занят на 40%">Занят на 40%</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="acquaintance__right-form-box">
+                            <h3>Желаемая «Точка Б»:</h3>
+
+                            <div class="acquaintance__right-form-container">
+                                <input type="text" class="acquaintance__right-form__input" placeholder="напр. $1,000">
+
+                                <!-- Custom Dropdown for Точка Б -->
+                                <div class="dropdown form__dropdown">
+                                    <button type="button" class="dropdown__button form__dropdown-button"
+                                        id="dropdownA">Все делаю сам</button>
+                                    <div class="dropdown__content form__dropdown-content" id="dropdownAOptions">
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Все делаю сам">Все делаю сам</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Первые сотрудники">Первые сотрудники</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Постоянный контроль">Постоянный контроль</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Управление 10 мин">Управление 10 мин</a>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown form__dropdown">
+                                    <button type="button" class="dropdown__button form__dropdown-button"
+                                        id="dropdownB">Занят на 10%</button>
+                                    <div class="dropdown__content form__dropdown-content" id="dropdownBOptions">
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Занят на 10%">Занят на 10%</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Занят на 20%">Занят на 20%</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Занят на 30%">Занят на 30%</a>
+                                        <a href="#" class="dropdown__link form__dropdown-link"
+                                            data-value="Занят на 40%">Занят на 40%</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="acquaintance__right-form-box acquaintance__right-form-box2">
+                            <label class="acquaintance__right-form__label">Когда ты хочешь прийти к этому
+                                результату?</label>
+                            <input type="date" class="acquaintance__right-form__input">
+                            <span>Выберите дату</span>
+                        </div>
+
+                        <div class="acquaintance__right-form__result">
+                            <p class="acquaintance__right-form__result-text">Итог: <span
+                                    class="acquaintance__right-form__result-highlight">$4,000 в течение 83 дней</span>
+                            </p>
+                        </div>
+
+                        <div class="acquaintance__right-form-box-textarea">
+                            <label class="acquaintance__right-form__label">Твоя команда «Точка Б»</label>
+                            <textarea class="acquaintance__right-form__textarea"
+                                placeholder="Команда, количество клиентов, управление и т.п."></textarea>
+                        </div>
+
+                        <div class="acquaintance__right-form-box-textarea">
+                            <label class="acquaintance__right-form__label">Зачем тебе этот проект?</label>
+                            <textarea class="acquaintance__right-form__textarea"
+                                placeholder="Путешествия, дом у океана, часы и т.д."></textarea>
+                        </div>
+
+                        <div class="acquaintance__right-form-box-textarea">
+                            <label class="acquaintance__right-form__label">Дополнительная информация</label>
+                            <textarea class="acquaintance__right-form__textarea" placeholder="Необязательно"></textarea>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="product-line">
+            <div class="wrapper">
+                <div class="product-line__header">
+                    <div class="product-line__header-title">
+                        <h2>Продуктовая линейка</h2>
+                        <p>Суть этого блока: оценить эффективность работы шести компетенций и определиться с развитием в
+                            каждой из сфер</p>
+                    </div>
+
+                    <p class="product-line__header-content">
+                        Помимо своей прямой функции, ваши продукты могут способствовать выполнению ключевых
+                        бизнес-задач: привлечение клиента; перевод на покупку; удержание клиента; выход в сверхприбыль.
+                        Понимая функцию продукта, вы планируете тактику продвижения. Сбалансированная продуктовая
+                        матрица содержит все, но ничего страшного, если чего-то не будет. Иногда бизнес-модель не
+                        предусматривает наличия какого-то из продуктов.
+                    </p>
+                </div>
+                <div class="product-line__table">
+                    <ul class="product-line__table-header">
+                        <li>
+                            Воронка
+                        </li>
+                        <li>
+                            Ваш продукт
+                        </li>
+                        <li>
+                            Средний чек, $
+                        </li>
+                        <li>
+                            Комментарии
+                        </li>
+                    </ul>
+                    <form class="product-line__table-main">
+                        <div class="product-line__table-main-row">
+                            <div class="product-line__table-main-row-box product-line__table-main-title">
+                                <h4>Лид-магнит</h4>
+
+                                <div class="product-line__table-position">
+                                    <h3>Лид-магнит</h3>
+                                    <p>Лид-магнит - бесплатный пробный продукт, частично решающий проблему
+                                        потенциального клиента, который он получает в обмен на целевое действие (обычно
+                                        оставить контакты)
+                                        <br>
+                                        Функция лид-магнита: обмен бесплатной ценности на контактные данные
+                                        <br>
+                                        Пример: 3D-проект кухни; PDF-документ "10 техник массажа лица", купон на скидку
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="product-line__table-main-row">
+                            <div class="product-line__table-main-row-box product-line__table-main-title">
+                                <h4>Дешевий продукт</h4>
+                                <div class="product-line__table-position">
+                                    <h3>Дешевий продукт</h3>
+                                    <p>Входящий продукт (tripwire) - недорогой продукт $1-$19, связанный с основным
+                                        продуктом, который вы продаете. Он помогает построить доверие с покупателем и
+                                        преодолеть его сомнения на пути к большой покупке.
+                                        <br>
+                                        Функция входного продукта: сегментировать аудиторию, готовую платить + окупить
+                                        трафик + уменьшить стресс от первой покупки
+                                        <br>
+                                        Пример: мини-курс из 8 уроков, из которого Вы с диагностики продадите Основной
+                                        продукт
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="product-line__table-main-row">
+                            <div class="product-line__table-main-row-box product-line__table-main-title">
+                                <h4>Основной продукт</h4>
+                                <div class="product-line__table-position">
+                                    <h3>Дешевий продукт</h3>
+                                    <p>Основной продукт - продукт или услуга, обеспечивающая не менее 50% выручки. То,
+                                        на что вы делаете ставку, и на что системно переводятся клиенты с входящего
+                                        продукта
+                                        <br>
+                                        Функция основного продукта: фундамент бизнес-модели.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="product-line__table-main-row">
+                            <div class="product-line__table-main-row-box product-line__table-main-title">
+                                <h4>Тарифи основного продукта</h4>
+                                <div class="product-line__table-position">
+                                    <h3>Пакеты участия</h3>
+                                </div>
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="product-line__table-main-row">
+                            <div class="product-line__table-main-row-box product-line__table-main-title">
+                                <h4>Премиальный продукт</h4>
+                                <div class="product-line__table-position">
+                                    <h3>Менторская или персональная работа с клиентом или менторская работа с клиентом
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                            <div class="product-line__table-main-row-box product-line__table-main-row-box3">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="stage">
+            <div class="wrapper">
+                <div class="stage__left">
+                    <h2>Стадия вашего бизнеса</h2>
+                    <p>Суть этого блока: оценить эффективность работы шести компетенций и определиться с развитием в
+                        каждой из сфер</p>
+                </div>
+
+                <div class="stage__right">
+                    <div class="stage__tabs">
+                        <button class="stage__tabs-button stage__tabs-button_active" data-tab="tab-1">Трафик</button>
+                        <button class="stage__tabs-button" data-tab="tab-2">Контент</button>
+                        <button class="stage__tabs-button" data-tab="tab-3">Продажи</button>
+                        <button class="stage__tabs-button" data-tab="tab-4">Продукт</button>
+                        <button class="stage__tabs-button" data-tab="tab-5">Ниша</button>
+                        <button class="stage__tabs-button" data-tab="tab-6">Удовлетворенность от проекта</button>
+                    </div>
+
+                    <div class="stage__content">
+                        <div class="stage__pane stage__pane_active" id="tab-1">
+                            <form class="stage__form">
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="traffic" value="1"
+                                        class="stage__radio custom-radio__input">
+                                    <b>1 балл:</b> Доходы основаны только на собственных ресурсах: база клиентов,
+                                    аккаунты. Не покупаю трафик, либо вообще не располагаю активами.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="traffic" value="2"
+                                        class="stage__radio custom-radio__input">
+                                    <b>2 балла:</b> Продвигаюсь исключительно органически — использую Reels, TikTok,
+                                    Youtube Shorts, посты в ленте, хештеги и сайты.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="traffic" value="3"
+                                        class="stage__radio custom-radio__input">
+                                    <b>3 балла:</b> Пробую покупать платную рекламу, но она не окупается или окупается
+                                    при моем активном участии.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="traffic" value="4"
+                                        class="stage__radio custom-radio__input">
+                                    <b>4 балла:</b> Регулярно инвестирую значительные суммы в трафик, охватывая все
+                                    платформы: таргетированная реклама в Facebook/Instagram, реклама на YouTube,
+                                    блогеры. Все тщательно и сведено в таблицу, я постоянно контролирую ситуацию.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="traffic" value="5"
+                                        class="stage__radio custom-radio__input">
+                                    <b>5 баллов:</b> Я покупаю трафик через все доступные каналы: Facebook/Instagram,
+                                    Telegram, YouTube, TikTok, блогеры. Одновременно активно продвигаюсь органически
+                                    через Reels, YouTube и коллаборации. Мой трафик окупается минимум в три раза и
+                                    более.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                            </form>
+                        </div>
+
+                        <div class="stage__pane" id="tab-2">
+                            <form class="stage__form">
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="content" value="1"
+                                        class="stage__radio custom-radio__input">
+                                    <b>1 балл:</b> Доходы основаны только на собственных ресурсах: база клиентов,
+                                    аккаунты. Не покупаю трафик.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="content" value="2"
+                                        class="stage__radio custom-radio__input">
+                                    <b>2 балла:</b> Продвигаюсь исключительно органически — использую Reels, TikTok,
+                                    Youtube Shorts.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="content" value="3"
+                                        class="stage__radio custom-radio__input">
+                                    <b>3 балла:</b> Пробую покупать платную рекламу, но она не окупается.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="content" value="4"
+                                        class="stage__radio custom-radio__input">
+                                    <b>4 балла:</b> Регулярно инвестирую значительные суммы в трафик.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="content" value="5"
+                                        class="stage__radio custom-radio__input">
+                                    <b>5 баллов:</b> Покупаю трафик через все доступные каналы.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                            </form>
+                        </div>
+
+                        <div class="stage__pane" id="tab-3">
+                            <form class="stage__form">
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="sales" value="1" class="stage__radio custom-radio__input">
+                                    <b>1 балл:</b> Доходы основаны только на собственных ресурсах: база клиентов,
+                                    аккаунты. Не покупаю трафик.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="sales" value="2" class="stage__radio custom-radio__input">
+                                    <b>2 балла:</b> Продвигаюсь исключительно органически — использую Reels, TikTok,
+                                    Youtube Shorts.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="sales" value="3" class="stage__radio custom-radio__input">
+                                    <b>3 балла:</b> Пробую покупать платную рекламу, но она не окупается.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="sales" value="4" class="stage__radio custom-radio__input">
+                                    <b>4 балла:</b> Регулярно инвестирую значительные суммы в трафик.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="sales" value="5" class="stage__radio custom-radio__input">
+                                    <b>5 баллов:</b> Покупаю трафик через все доступные каналы.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                            </form>
+                        </div>
+
+                        <div class="stage__pane" id="tab-4">
+                            <form class="stage__form">
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="product" value="1"
+                                        class="stage__radio custom-radio__input">
+                                    <b>1 балл:</b> Доходы основаны только на собственных ресурсах: база клиентов,
+                                    аккаунты. Не покупаю трафик.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="product" value="2"
+                                        class="stage__radio custom-radio__input">
+                                    <b>2 балла:</b> Продвигаюсь исключительно органически — использую Reels, TikTok,
+                                    Youtube Shorts.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="product" value="3"
+                                        class="stage__radio custom-radio__input">
+                                    <b>3 балла:</b> Пробую покупать платную рекламу, но она не окупается.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="product" value="4"
+                                        class="stage__radio custom-radio__input">
+                                    <b>4 балла:</b> Регулярно инвестирую значительные суммы в трафик.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="product" value="5"
+                                        class="stage__radio custom-radio__input">
+                                    <b>5 баллов:</b> Покупаю трафик через все доступные каналы.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                            </form>
+                        </div>
+
+                        <div class="stage__pane" id="tab-5">
+                            <form class="stage__form">
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="niche" value="1" class="stage__radio custom-radio__input">
+                                    <b>1 балл:</b> Доходы основаны только на собственных ресурсах: база клиентов,
+                                    аккаунты. Не покупаю трафик.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="niche" value="2" class="stage__radio custom-radio__input">
+                                    <b>2 балла:</b> Продвигаюсь исключительно органически — использую Reels, TikTok,
+                                    Youtube Shorts.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="niche" value="3" class="stage__radio custom-radio__input">
+                                    <b>3 балла:</b> Пробую покупать платную рекламу, но она не окупается.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="niche" value="4" class="stage__radio custom-radio__input">
+                                    <b>4 балла:</b> Регулярно инвестирую значительные суммы в трафик.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="niche" value="5" class="stage__radio custom-radio__input">
+                                    <b>5 баллов:</b> Покупаю трафик через все доступные каналы.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                            </form>
+                        </div>
+
+                        <div class="stage__pane" id="tab-6">
+                            <form class="stage__form">
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="saticfection" value="1"
+                                        class="stage__radio custom-radio__input">
+                                    <b>1 балл:</b> Доходы основаны только на собственных ресурсах: база клиентов,
+                                    аккаунты. Не покупаю трафик.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="saticfection" value="2"
+                                        class="stage__radio custom-radio__input">
+                                    <b>2 балла:</b> Продвигаюсь исключительно органически — использую Reels, TikTok,
+                                    Youtube Shorts.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="saticfection" value="3"
+                                        class="stage__radio custom-radio__input">
+                                    <b>3 балла:</b> Пробую покупать платную рекламу, но она не окупается.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="saticfection" value="4"
+                                        class="stage__radio custom-radio__input">
+                                    <b>4 балла:</b> Регулярно инвестирую значительные суммы в трафик.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                                <label class="stage__label custom-radio">
+                                    <input type="radio" name="saticfection" value="5"
+                                        class="stage__radio custom-radio__input">
+                                    <b>5 баллов:</b> Покупаю трафик через все доступные каналы.
+                                    <span class="custom-radio__checkmark"></span>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+
+                    <button class="stage__submit-button btn-transparent">Показать результат</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="result">
+            <div class="wrapper">
+                <div class="result__left">
+                    <h2>Ваш результат оценки ситуации</h2>
+
+                    <div class="result__left-diagram">
+                        <img src="image/diagramma.png" alt="">
+                    </div>
+                </div>
+                <div class="result__right">
+                    <div class="result__right-col">
+                        <h3>Трафик</h3>
+                        <div class="result__right-row">
+                            <span>4 балла</span>
+                            <p>Регулярно инвестирую значительные суммы в трафик, охватывая все платформы:
+                                таргетированная реклама в Facebook/Instagram, реклама на YouTube, блогеры. Все тщательно
+                                и сведено в таблицу, я постоянно контролирую ситуацию.</p>
+                        </div>
+                    </div>
+
+                    <div class="result__right-col">
+                        <h3>Контент</h3>
+                        <div class="result__right-row">
+                            <span>5 баллов</span>
+                            <p>Во всех каналах выстроен контент, производство делегировано команде, на всех площадках
+                                постоянно размещаются материалы, которые ведут в автоворонку, что раскрывает
+                                экспертность и ведет к продажам.</p>
+                        </div>
+                    </div>
+
+                    <div class="result__right-col">
+                        <h3>Продажи</h3>
+                        <div class="result__right-row">
+                            <span>3 балла</span>
+                            <p>Часть продаж делегирована отделу продаж, и большая часть поступлений не зависит от моего
+                                настроения или активности в блоге. Есть автоворонка, которая стабильно генерирует заказы
+                                каждый день, независимо от меня.</p>
+                        </div>
+                    </div>
+
+                    <div class="result__right-col">
+                        <h3>Ниша</h3>
+                        <div class="result__right-row">
+                            <span>2 балла</span>
+                            <p>Спрос медленно растет, но конкуренция высокая. Компании ищут способ выделяться, внедряют
+                                инновации и улучшают качество обслуживания. Появляются возможности для роста и
+                                расширения клиентской базы.</p>
+                        </div>
+                    </div>
+
+                    <div class="result__right-col">
+                        <h3>Общая удовлетворенность от проекта</h3>
+                        <div class="result__right-row">
+                            <span>2 балла</span>
+                            <p>Проект перспективен, но результаты нестабильны — бывает либо слишком много, либо ничего.
+                                Думаю о запуске еще одного проекта.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="business-tools">
+            <div class="wrapper">
+                <div class="business-tools__header">
+                    <div class="business-tools__header-left">
+                        <h2>С помощью чего ты можешь <br> вырасти х3-х10 за год</h2>
+                        <p>Суть этого блока — выбрать и обсудить бизнес-инструменты, которые помогут в развитии бизнеса.
+                        </p>
+                    </div>
+                    <div class="business-tools__header-right">
+                        <p>Вам нужно отметить сектора в зависимости от вашей ситуации.</p>
+                        <ul>
+                            <li>
+                                <span class="red"></span>Красным цветом инструменты, которые необходимо будет внедрить в
+                                первую очередь.
+                            </li>
+                            <li>
+                                <span class="yellow"></span>Желтым цветом отметь другие важные для внедрения
+                                инструменты.
+                            </li>
+                            <li>
+                                <span class="green"></span>Зеленым цветом отметь инструменты, которые полезно будет
+                                внедрить в будущем.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="business-tools__main">
+                    <div class="business-tools__main-col">
+                        <div class="business-tools__main-col-title">
+                            <h3>Упаковка</h3>
+                        </div>
+                        <div class="business-tools__main-col-box">
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Распаковка личности, экспертности
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Кастдев аудитории
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Сильный оффер
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Упаковка аккаунта
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Упаковка аккаунта TG
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Анализ конкурентов
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="business-tools__main-col">
+                        <div class="business-tools__main-col-title">
+                            <h3>Бесплатный трафик</h3>
+                        </div>
+                        <div class="business-tools__main-col-box">
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Reels, Shorts, Tiktok
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Длинный Контент (YouTube)
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Выступления
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Кол-ции с блогерами
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Работа с базой
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Реферальные программы
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Партнерские коллаборации
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="business-tools__main-col">
+                        <div class="business-tools__main-col-title">
+                            <h3>Платный трафик</h3>
+                        </div>
+                        <div class="business-tools__main-col-box">
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Таргет Инстаграм
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">YouTube таргет
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Закуп в TG каналах
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Закупка рекламы у блогеров
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Google Ads
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">TikTok трафик
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="business-tools__main-col">
+                        <div class="business-tools__main-col-title">
+                            <h3>Контент</h3>
+                        </div>
+                        <div class="business-tools__main-col-box">
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Системные сторис
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Прод-ние через REELS
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Ведение TG-канала
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Конструктор сценариев
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Продажа через YouTube
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Продажа через email
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Техника вирусных видео
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="business-tools__main-col">
+                        <div class="business-tools__main-col-title">
+                            <h3>Воронки</h3>
+                        </div>
+                        <div class="business-tools__main-col-box">
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Воронка через Reels
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Автоворонка продаж
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Воронка на подписчиков
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Воронка
+                                        микро вебинара
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Продажа через YouTube
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Вебинарная воронка
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="business-tools__main-col">
+                        <div class="business-tools__main-col-title">
+                            <h3>Продажа</h3>
+                        </div>
+                        <div class="business-tools__main-col-box">
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Продажа через звонки
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Продажа через консультации
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Продажа через отдел консультантов
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Продажа через переписки
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Продажа через рассылки
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Продажа через холодные звонки
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Продажа через Мини-продукты
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="business-tools__main-col">
+                        <div class="business-tools__main-col-title">
+                            <h3>Техническая часть</h3>
+                        </div>
+                        <div class="business-tools__main-col-box">
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Оплаты
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Автоматизация выдачи доступов
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Сайт микропродукта
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Сайт продукта
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Качество продукта (NPS)
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="business-tools__main-col">
+                        <div class="business-tools__main-col-title">
+                            <h3>Мышление и мотивация</h3>
+                        </div>
+                        <div class="business-tools__main-col-box">
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Окружение
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Финансовые блоки
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Прокачка мышления
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Поддержка и мотивация
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-dropdown-container">
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown__selected">Умение говорить на камеру
+                                        <span class="custom-dropdown__arrow"></span>
+                                    </div>
+                                    <div class="custom-dropdown__options">
+                                        <div class="custom-dropdown__option red" data-color="red">Cрочно</div>
+                                        <div class="custom-dropdown__option yellow" data-color="yellow">Обязательно
+                                        </div>
+                                        <div class="custom-dropdown__option green" data-color="green">В будущем</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="earn">
+            <div class="wrapper">
+                <div class="earn__left">
+                    <h2>Сколько можно зарабатывать в твоем проекте</h2>
+                    <p>Суть этого блока: разложить бизнес на ключевые показатели, понять точку безубыточности и
+                        определить новые значения показателей, которые обеспечат выход на желаемый уровень чистой
+                        прибыли.</p>
+                </div>
+
+                <div class="earn__right">
+                    <div class="earn__tabs">
+                        <button class="earn__tab earn__tab--active" data-tab="mini-product">Мини-продукт +
+                            консультации</button>
+                        <button class="earn__tab" data-tab="webinar">Вебинар</button>
+                        <button class="earn__tab" data-tab="marathon">Марафон</button>
+                    </div>
+
+                    <div class="earn__content">
+                        <div class="earn__content-item earn__content-item--active" id="mini-product">
+                            <h3>Модель заработка<br>(мини-продукт + консультации)</h3>
+                            <div class="earn__content-item-box">
+                                <div class="earn__form-group">
+                                    <label for="consultants">Количество консультантов</label>
+                                    <input type="number" id="consultants" class="earn__input"
+                                        placeholder="Введите значение">
+                                </div>
+
+                                <div class="earn__form-row">
+                                    <div class="earn__form-group">
+                                        <label for="mini-product-price">Цена мини-продукта, $</label>
+                                        <input type="number" id="mini-product-price" class="earn__input"
+                                            placeholder="Введите сумму">
+                                    </div>
+
+                                    <div class="earn__form-group">
+                                        <label for="instagram-ad">Реклама Instagram, $</label>
+                                        <input type="number" id="instagram-ad" class="earn__input"
+                                            placeholder="Введите сумму">
+                                    </div>
+
+                                    <div class="earn__form-group">
+                                        <label for="lead-price">Цена лида покупки Мини, $</label>
+                                        <input type="number" id="lead-price" class="earn__input"
+                                            placeholder="Введите сумму">
+                                    </div>
+                                </div>
+
+                                <div class="earn__calculation">
+                                    <div class="earn__calculation-group">
+                                        <label>Всего покупок Мини, шт.:</label>
+                                        <span id="total-mini-sales">59</span>
+                                    </div>
+                                    <div class="earn__calculation-group">
+                                        <label>Заработок на Мини, $:</label>
+                                        <span id="mini-earnings">$4,000</span>
+                                    </div>
+                                </div>
+
+                                <div class="earn__calculation earn__calculation2">
+                                    <div class="earn__form-group">
+                                        <label for="consult-reached">Дошли до консультации, %</label>
+                                        <input type="number" id="consult-reached" class="earn__input"
+                                            placeholder="Введите значение">
+                                    </div>
+
+                                    <div class="earn__calculation-group">
+                                        <label>Количество кон-ций, шт.:</label>
+                                        <span id="consult-count">18</span>
+                                    </div>
+                                </div>
+
+                                <div class="earn__calculation earn__calculation2">
+                                    <div class="earn__form-group">
+                                        <label for="conversion">Конверсия по кон-циям, %</label>
+                                        <input type="number" id="conversion" class="earn__input"
+                                            placeholder="Введите значение">
+                                    </div>
+
+                                    <div class="earn__calculation-group">
+                                        <label>Количество продаж, шт.:</label>
+                                        <span id="sales-count">54</span>
+                                    </div>
+                                </div>
+
+                                <div class="earn__calculation earn__calculation2">
+                                    <div class="earn__form-group">
+                                        <label for="average-check">Средний чек, $</label>
+                                        <input type="number" id="average-check" class="earn__input"
+                                            placeholder="Введите сумму">
+                                    </div>
+                                    <div class="earn__calculation-group"
+                                        style="border-bottom: 1.5px solid #04C65D; background: #9AE8BE;">
+                                        <label>Оборот продаж, $:</label>
+                                        <span id="sales-turnover">$7,550</span>
+                                    </div>
+                                </div>
+
+                                <div class="earn__calculation earn__calculation2">
+                                    <div class="earn__form-group">
+                                        <label for="profitability">Рентабельность, %</label>
+                                        <input type="number" id="profitability" class="earn__input"
+                                            placeholder="Введите значение">
+                                    </div>
+
+                                    <div class="earn__calculation-group"
+                                        style="border-bottom: 1.5px solid #04C65D; background: #9AE8BE;">
+                                        <label>Прибыль, $:</label>
+                                        <span id="profit">$943,750</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="earn__content-item" id="webinar">
+                            <!-- Контент для Вебинара -->
+                            <h3>Модель заработка для Вебинара.</h3>
+                            <!-- Ваши поля ввода и расчёты -->
+                        </div>
+
+                        <div class="earn__content-item" id="marathon">
+                            <!-- Контент для Марафона -->
+                            <h3>Модель заработка для Марафона.</h3>
+                            <!-- Ваши поля ввода и расчёты -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="plan">
+            <div class="wrapper">
+                <div class="plan__header">
+                    <div class="plan__header-left">
+                        <h2>План по шагам: что нужно сделать</h2>
+                        <p>Суть блока - прописать ключевые действия для выхода бизнеса на новый уровень + расставить
+                            приоритеты задачи, которые будут максимально полезны сейчас</p>
+                    </div>
+                    <div class="plan__header-right">
+                        <label for="coment">Комментарий</label>
+                        <textarea name="coment" id="coment" placeholder="Необязательный"></textarea>
+                    </div>
+                </div>
+                <div class="plan__main">
+                    <div class="plan__main-header-row">
+                        <ul>
+                            <li>
+                                Приоритет
+                            </li>
+
+                            <li>
+                                Задачи
+                            </li>
+
+                            <li>
+                                Компетенция
+                            </li>
+
+                            <li style="flex: 0;">
+                                Срочность
+                            </li>
+
+                            <li>
+                                Месяц 1
+                            </li>
+
+                            <li>
+                                Месяц 2
+                            </li>
+
+                            <li>
+                                Месяц 3
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="plan__main-row">
+                        <div class="plan__main-row-number">1</div>
+
+                        <div class="plan__main-row-tasks">
+                            <input type="text" placeholder="Введите текст">
+                        </div>
+
+                        <div class="plan__main-row-competence">
+                            <div class="dropdown form__dropdown">
+                                <button type="button" class="dropdown__button form__dropdown-button">Выберите</button>
+                                <div class="dropdown__content form__dropdown-content">
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Все делаю сам">Все делаю сам</a>
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Первые сотрудники">Первые сотрудники</a>
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Постоянный контроль">Постоянный контроль</a>
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Управление 10 мин">Управление 10 мин</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="plan__main-row-urgency">
+                            <input type="checkbox" id="styled-checkbox">
+                            <label for="styled-checkbox"></label>
+                        </div>
+
+                        <div class="plan__main-row-months">
+                            <div class="month-grid">
+                                <input type="checkbox" class="cube-checkbox" id="cube1" />
+                                <label for="cube1" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube2" />
+                                <label for="cube2" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube3" />
+                                <label for="cube3" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube4" />
+                                <label for="cube4" class="cube"></label>
+                            </div>
+                        </div>
+
+                        <div class="plan__main-row-months">
+                            <div class="month-grid">
+                                <input type="checkbox" class="cube-checkbox" id="cube1.1" />
+                                <label for="cube1.1" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube1.2" />
+                                <label for="cube1.2" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube1.3" />
+                                <label for="cube1.3" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube1.4" />
+                                <label for="cube1.4" class="cube"></label>
+                            </div>
+                        </div>
+
+                        <div class="plan__main-row-months">
+                            <div class="month-grid">
+                                <input type="checkbox" class="cube-checkbox" id="cube2.1" />
+                                <label for="cube2.1" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube2.2" />
+                                <label for="cube2.2" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube2.3" />
+                                <label for="cube2.3" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube2.4" />
+                                <label for="cube2.4" class="cube"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="plan__main-row">
+                        <div class="plan__main-row-number">2</div>
+
+                        <div class="plan__main-row-tasks">
+                            <input type="text" placeholder="Введите текст">
+                        </div>
+
+                        <div class="plan__main-row-competence">
+                            <div class="dropdown form__dropdown">
+                                <button type="button" class="dropdown__button form__dropdown-button">Выберите</button>
+                                <div class="dropdown__content form__dropdown-content">
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Все делаю сам">Все делаю сам</a>
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Первые сотрудники">Первые сотрудники</a>
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Постоянный контроль">Постоянный контроль</a>
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Управление 10 мин">Управление 10 мин</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="plan__main-row-urgency">
+                            <input type="checkbox" id="styled-checkbox">
+                            <label for="styled-checkbox"></label>
+                        </div>
+
+                        <div class="plan__main-row-months">
+                            <div class="month-grid">
+                                <input type="checkbox" class="cube-checkbox" id="cube5" />
+                                <label for="cube5" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube6" />
+                                <label for="cube6" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube7" />
+                                <label for="cube7" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube8" />
+                                <label for="cube8" class="cube"></label>
+                            </div>
+                        </div>
+
+                        <div class="plan__main-row-months">
+                            <div class="month-grid">
+                                <input type="checkbox" class="cube-checkbox" id="cube1.5" />
+                                <label for="cube1.5" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube1.6" />
+                                <label for="cube1.6" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube1.7" />
+                                <label for="cube1.7" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube1.8" />
+                                <label for="cube1.8" class="cube"></label>
+                            </div>
+                        </div>
+
+                        <div class="plan__main-row-months">
+                            <div class="month-grid">
+                                <input type="checkbox" class="cube-checkbox" id="cube2.5" />
+                                <label for="cube2.5" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube2.6" />
+                                <label for="cube2.6" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube2.7" />
+                                <label for="cube2.7" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube2.8" />
+                                <label for="cube2.8" class="cube"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="plan__main-row">
+                        <div class="plan__main-row-number">3</div>
+
+                        <div class="plan__main-row-tasks">
+                            <input type="text" placeholder="Введите текст">
+                        </div>
+
+                        <div class="plan__main-row-competence">
+                            <div class="dropdown form__dropdown">
+                                <button type="button" class="dropdown__button form__dropdown-button">Выберите</button>
+                                <div class="dropdown__content form__dropdown-content">
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Все делаю сам">Все делаю сам</a>
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Первые сотрудники">Первые сотрудники</a>
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Постоянный контроль">Постоянный контроль</a>
+                                    <a href="#" class="dropdown__link form__dropdown-link"
+                                        data-value="Управление 10 мин">Управление 10 мин</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="plan__main-row-urgency">
+                            <input type="checkbox" id="styled-checkbox">
+                            <label for="styled-checkbox"></label>
+                        </div>
+
+                        <div class="plan__main-row-months">
+                            <div class="month-grid">
+                                <input type="checkbox" class="cube-checkbox" id="cube9" />
+                                <label for="cube9" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube10" />
+                                <label for="cube10" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube11" />
+                                <label for="cube11" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube12" />
+                                <label for="cube12" class="cube"></label>
+                            </div>
+                        </div>
+
+                        <div class="plan__main-row-months">
+                            <div class="month-grid">
+                                <input type="checkbox" class="cube-checkbox" id="cube1.9" />
+                                <label for="cube1.9" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube1.10" />
+                                <label for="cube1.10" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube1.11" />
+                                <label for="cube1.11" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube1.12" />
+                                <label for="cube1.12" class="cube"></label>
+                            </div>
+                        </div>
+
+                        <div class="plan__main-row-months">
+                            <div class="month-grid">
+                                <input type="checkbox" class="cube-checkbox" id="cube2.9" />
+                                <label for="cube2.9" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube2.10" />
+                                <label for="cube2.10" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube2.11" />
+                                <label for="cube2.11" class="cube"></label>
+
+                                <input type="checkbox" class="cube-checkbox" id="cube2.12" />
+                                <label for="cube2.12" class="cube"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <button class="plan__main-btn btn-bg" id="addRowBtn">Добавить строку</button>
+            </div>
+            </div>
+        </section>
+
+        <section class="launch">
+            <div class="wrapper">
+                <div class="launch__header">
+                    <h2>
+                        Ньюансы запуска
+                    </h2>
+                </div>
+                <div class="launch__main">
+                    <div class="launch__main-col">
+                        <h3>Самостоятельный старт</h3>
+                        <div class="launch__main-col2">
+                            <div class="launch__main-col-box">
+                                <div class="launch__main-col-box-section">
+                                    <p>Преимущества</p>
+                                    <span>0</span>
+                                    <div class="launch__main-col-input">
+                                        <input type="text" placeholder="Введите текст">
+                                        <input type="text" placeholder="Введите текст">
+                                        <input type="text" placeholder="Введите текст">
+                                    </div>
+                                </div>
+                                <div class="launch__main-col-box-section">
+                                    <div class="launch__main-col-box2">
+                                        <p>Недостатки</p>
+                                        <span>0</span>
+                                    </div>
+                                    <div class="launch__main-col-input">
+                                        <input type="text" placeholder="Введите текст">
+                                        <input type="text" placeholder="Введите текст">
+                                        <input type="text" placeholder="Введите текст">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-bg">Добавить строку</button>
+                    </div>
+                    <div class="launch__main-col">
+                        <h3>Старт с поддежкой</h3>
+                        <div class="launch__main-col2">
+                            <div class="launch__main-col-box">
+                                <div class="launch__main-col-box-section">
+                                    <p>Преимущества</p>
+                                    <span>0</span>
+                                    <div class="launch__main-col-input">
+                                        <input type="text" placeholder="Введите текст">
+                                        <input type="text" placeholder="Введите текст">
+                                        <input type="text" placeholder="Введите текст">
+                                    </div>
+                                </div>
+                                <div class="launch__main-col-box-section">
+                                    <div class="launch__main-col-box2">
+                                        <p>Недостатки</p>
+                                        <span>0</span>
+                                    </div>
+                                    <div class="launch__main-col-input">
+                                        <input type="text" placeholder="Введите текст">
+                                        <input type="text" placeholder="Введите текст">
+                                        <input type="text" placeholder="Введите текст">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-bg">Добавить строку</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subfooter">
+            <div class="subfooter-title">
+                <h2>Все готово? 👉</h2>
+                <button>Сохранить анкету</button>
+            </div>
+            <div class="subfooter-video">
+                <video src="image/subfooter.mp4" autoplay muted></video>
+            </div>
+            <div class="subfooter-video">
+                <video src="image/subfooter.mp4" autoplay muted></video>
+            </div>
+            <div class="subfooter-video">
+                <video src="image/subfooter.mp4" autoplay muted></video>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__top">
+                <div class="footer__top-logo">
+                    <a href="#">
+                        <img src="image/footer-shapoval-logo.svg" alt="logotype">
+                    </a>
+                </div>
+                <h2>развитие бизнеса</h2>
+            </div>
+            <div class="footer-copy">
+                © 2024 Весь контент доступний за ліцензією <br> Creative Commons Attribution 4.0 International license,
+                якщо не зазначено інше
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/main.js"></script>
+</body>
+
+</html>
